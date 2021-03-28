@@ -1,7 +1,7 @@
 use AppleScript version "2.4" -- Yosemite (10.10) or later
 use scripting additions
 
-set deviceName to "Geoff's iPad" -- Change this to the name of your iPad.
+set deviceName to "My iPad" -- Change this to the name of your iPad.
 
 tell application "System Events"
 	tell its application process "ControlCenter"

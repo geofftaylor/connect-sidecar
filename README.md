@@ -4,7 +4,7 @@ Connect Sidecar is a script that connects your Mac to [Sidecar](https://support.
 The script is written in AppleScript. It uses [UI scripting](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/AutomatetheUserInterface.html) to click the Sidecar button in the correct menu (*Displays* in Catalina or *Control Center* in Bug Sur). The primary advantage of the script is that you can assign a keyboard shortcut to it (for example, using [Keyboard Maestro](https://www.keyboardmaestro.com/main/) or [FastScripts](https://redsweater.com/fastscripts/)). You can then connect or disconnect using the keyboard shortcut rather than clicking the menu item.
 
 ## Setup
-Download `Connect-Sidecar-v1.0.0.zip` from [this page](https://github.com/geofftaylor/connect-sidecar/releases/latest). Extract the files from the archive. For Big Sur, use `Connect Sidecar - Big Sur.applescript`. For Catalina, use `Connect Sidecar - Catalina.applescript`.
+Download the latest zip file from [this page](https://github.com/geofftaylor/connect-sidecar/releases/latest). Extract the files from the archive. Select the `.applescript` file that is appropriate for your version of macOS (Monterey, Big Sur or Catalina).
 
 Open the script in Script Editor. (Script Editor is located in `/Applications/Utilities`.) Go to this line:
 
@@ -25,3 +25,7 @@ Create a macro with an *Execute AppleScript* action. Set the action to *Execute 
 
 ### FastScripts
 If you saved the script in your user scripts folder (`/Users/<your username>/Library/Scripts`), it will be available in the FastScripts menu, and you can assign a keyboard shortcut in FastScript's preferences.
+
+## Notes
+* This script will probably break with each major version of macOS. It may break with minor versions as well.
+* I'll attempt to update the script when new macOS versions are released, but it may take some time.

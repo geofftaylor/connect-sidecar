@@ -1,3 +1,5 @@
+**Note: I'm no longer updating this script, so I've archived the repository. I don't use it anymore, and it's too difficult to keep up with the changes to Control Center in each macOS release. I'm glad so many of you found it useful.**
+
 # Connect Sidecar
 Connect Sidecar is a script that connects your Mac to [Sidecar](https://support.apple.com/en-us/HT210380). If your Mac is already connected to Sidecar, the script will disconnect it.
 
